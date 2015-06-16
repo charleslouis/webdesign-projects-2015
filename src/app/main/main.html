@@ -1,36 +1,29 @@
-<div layout="vertical" layout-fill>
+<section class="jumbotron">
+  <h1>Webdesign projects for 2015</h1>
+  <h2>ESSEC Hospitality MBA students</h2>
 
-  <md-content>
-    <header ng-include="'app/components/navbar/navbar.html'"></header>
+  <p class="lead">
+    <!-- <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br> -->
+    Take a tour, have a look
+  </p>
+  <!-- <p><a class="btn" ng-href="#">Splendid!</a></p> -->
+</section>
 
-    <section class="jumbotron">
-      <h1>Webdesign projects for 2015</h1>
-      <h2>ESSEC Hospitality MBA students</h2>
+<div class="techs" layout-align="center">
 
-      <p class="lead">
-        <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
-        Take a tour, have a look
-      </p>
-      <!-- <p><a class="btn" ng-href="#">Splendid!</a></p> -->
-    </section>
+    <md-card ng-repeat="awesomeThing in awesomeThings | orderBy:'rank'">
+      <div class="image-wrapper">        
+        <img ng-src="{{awesomeThing.imagePath}}" class="md-card-image" alt="Washed Out">
+      </div>
 
-    <div class="techs" layout-align="center">
-      <md-card ng-repeat="awesomeThing in awesomeThings | orderBy:'rank'">
-        <div class="thumbnail">
-          <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
-          <div class="caption">
-            <h3>{{awesomeThing.title}}</h3>
-            <p>{{awesomeThing.description}}</p>
-            <p><a ng-href="{{awesomeThing.url}}">{{awesomeThing.name}}</a></p>
-          </div>
+      <md-card-content>
+        <h2 class="md-title">{{awesomeThing.title | uppercase}}</h2>
+        <p>{{awesomeThing.description | lowercase}}</p>
+        <div class="md-actions" layout="row" layout-align="end center">
+          <md-button class="md-raised" href="{{awesomeThing.report_url}}" target="_blank">Read report</md-button>
+          <md-button class="md-raised md-primary" href="{{awesomeThing.url}}" target="_blank">Visit site</md-button>
         </div>
-      </md-card>
-    </div>
-    <footer>
-      <md-toolbar layout="row" layout-align="center center">
-        <p>With ♥ from <a href="https://twitter.com/CharleLoui">@CharleLoui</a></p>
-      </md-toolbar>
-    </footer>
-  </md-content>
+      </md-card-content>
+    </md-card>
 
 </div>

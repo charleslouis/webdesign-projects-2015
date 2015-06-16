@@ -54,6 +54,15 @@ section.jumbotron {
   }
 }
 
+// custom
+.fabToolbardemoBasicUsage md-fab-toolbar.md-left md-fab-trigger.align-with-text {
+  left: 7px; }
+
+.image-wrapper{
+  max-height: 200px;
+  overflow-y: hidden;
+}
+
 /* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
    all your sass files automatically */
 // injector
