@@ -1,0 +1,23 @@
+<section class="jumbotron">
+  <h1>Webdesign projects for 2015</h1>
+  <h2>ESSEC Hospitality MBA students</h2>
+
+  <p class="lead">
+    <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
+    Take a tour, have a look
+  </p>
+  <!-- <p><a class="btn" ng-href="#">Splendid!</a></p> -->
+</section>
+
+<div class="techs" layout-align="center">
+  <md-card ng-repeat="awesomeThing in awesomeThings | orderBy:'rank'">
+    <div class="thumbnail">
+      <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
+      <div class="caption">
+        <h3>{{awesomeThing.title}}</h3>
+        <p>{{awesomeThing.description}}</p>
+        <p><a ng-href="{{awesomeThing.url}}">{{awesomeThing.name}}</a></p>
+      </div>
+    </div>
+  </md-card>
+</div>

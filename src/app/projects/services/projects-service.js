@@ -12,7 +12,7 @@ angular.module('webdesignProjects2015')
     this.projects = [
 		{
 			'id': 'B00309675',
-			'name': 'Prénom NOM',
+			'name': 'Julie VIGNARAJAH',
 			'title': 'B00309675',
 			'description': 'B00309675',
 			'logo': 'yeoman.png',
@@ -22,7 +22,7 @@ angular.module('webdesignProjects2015')
 		},
 		{
 			'id': 'B00342015',
-			'name': 'Prénom NOM',
+			'name': 'Juliette PIAT',
 			'title': 'Juliette and Tyler',
 			'description': 'Our Story in five dates close to our hearts',
 			'logo': 'yeoman.png',
@@ -32,7 +32,7 @@ angular.module('webdesignProjects2015')
 		},
 		{
 			'id': 'B00437942',
-			'name': 'Prénom NOM',
+			'name': 'Laurence LAI-KING',
 			'title': 'Curried',
 			'description': 'We\'re preparing finger-licking Indian food, just what you wanted!',
 			'logo': 'yeoman.png',
@@ -42,8 +42,9 @@ angular.module('webdesignProjects2015')
 		},
 		{
 			'id': 'B00462613',
-			'name': 'Prénom NOM',
+			'name': 'Samy SADOU',
 			'title': 'Freeletics',
+			'pic': 'https://lh3.googleusercontent.com/-2n1fa_NYRAg/AAAAAAAAAAI/AAAAAAAAAEY/-GzBsaAyysw/s90-c-k-no/photo.jpg',
 			'description': 'Freeletics Locations and Training Assistant',
 			'logo': 'yeoman.png',
 			'url': 'projects/B00462613',
@@ -52,7 +53,7 @@ angular.module('webdesignProjects2015')
 		},
 		{
 			'id': 'B00470439',
-			'name': 'Prénom NOM',
+			'name': 'NOM',
 			'title': 'Random Event',
 			'description': 'RandomEvent is a collaborative platform that allows you to find local events organized by real local people.',
 			'logo': 'yeoman.png',
@@ -62,7 +63,7 @@ angular.module('webdesignProjects2015')
 		},
 		{
 			'id': 'B00496963',
-			'name': 'Prénom NOM',
+			'name': 'NOM',
 			'title': 'CHARE',
 			'description': 'Chare is a sharing platform for homeworks. It is not like every one of us has never struggled with a homework at school.',
 			'logo': 'yeoman.png',
@@ -72,7 +73,7 @@ angular.module('webdesignProjects2015')
 		},
 		{
 			'id': 'B00497716',
-			'name': 'Prénom NOM',
+			'name': 'NOM',
 			'title': 'MY VERY OWN WORLD TOUR',
 			'description': 'FRENCH ADVENTURER | TRAVELLING TO FIND MYSELF, TO DISCOVER, TO DARE, TO LIVE A LIFE...',
 			'logo': 'yeoman.png',
@@ -82,7 +83,7 @@ angular.module('webdesignProjects2015')
 		},
 		{
 			'id': 'B00514339',
-			'name': 'Prénom NOM',
+			'name': 'NOM',
 			'title': 'QUENZY',
 			'description': 'QUENZY Official Website',
 			'logo': 'yeoman.png',
@@ -92,7 +93,7 @@ angular.module('webdesignProjects2015')
 		},
 		{
 			'id': 'B00522473',
-			'name': 'Prénom NOM',
+			'name': 'NOM',
 			'title': 'JERVCHIN',
 			'description': 'Coopérative bédéhique bio',
 			'logo': 'yeoman.png',
@@ -102,7 +103,7 @@ angular.module('webdesignProjects2015')
 		},
 		{
 			'id': 'B00571183',
-			'name': 'Prénom NOM',
+			'name': 'NOM',
 			'title': 'Bespoke bar & restaurant',
 			'description': 'In a cosy ambiance, you can enjoy our original coktails or you can ask our barman to do something "bespoke" for you !',
 			'logo': 'yeoman.png',
@@ -112,7 +113,7 @@ angular.module('webdesignProjects2015')
 		},
 		{
 			'id': 'B00573117',
-			'name': 'Prénom NOM',
+			'name': 'NOM',
 			'title': 'Thuong BUI',
 			'description': 'My personal website',
 			'logo': 'yeoman.png',

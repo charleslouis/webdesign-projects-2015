@@ -63,6 +63,11 @@ section.jumbotron {
   overflow-y: hidden;
 }
 
+.guidelines{
+  max-width: 800px;
+  margin: 0 auto;  
+}
+
 /* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
    all your sass files automatically */
 // injector

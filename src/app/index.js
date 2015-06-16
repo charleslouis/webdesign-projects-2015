@@ -9,10 +9,21 @@ angular.module('webdesignProjects2015', ['ngAnimate', 'ngCookies', 'ngTouch', 'n
         controller: 'MainCtrl'
       })
       .state('guidelines', {
-        url: '/',
+        url: '/guidelines',
         templateUrl: 'app/guidelines/guidelines.html',
         controller: 'guidelinesCtrl'
+      })
+      .state('about', {
+        url: '/about',
+        templateUrl: 'app/about/about.html',
+        controller: 'aboutCtrl'
+      })
+      .state('students', {
+        url: '/students',
+        templateUrl: 'app/students/students.html',
+        controller: 'studentsCtrl'
       });
+
 
     $urlRouterProvider.otherwise('/');
   })
