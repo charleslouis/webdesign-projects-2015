@@ -1,0 +1,105 @@
+body {
+
+  background-color: #212121 ;
+}
+
+div {
+  color: #d7ccc8;
+}
+.nav .container {
+  color :#6d4c41; 
+  font-family: 'Playfair Display', serif;
+  font-style: bold ;
+  background-color: #212121 ;
+}
+
+.nav a {
+  color: #795548; 
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url(http://www.google.fr/url?source=imglanding&ct=img&q=http://a5.parisbouge-res.cloudinary.com/image/upload/s--dTauAe0c--/c_fill,fl_progressive,h_427,w_640/f_auto,g_south_east,l_upload:logos:parisbouge_500x500,o_85,w_59,x_10,y_10/f_auto,q_80/j44pxjenhgo9iku7ll9h.jpg&sa=X&ved=0CAkQ8wc4D2oVChMIgqOYlKmNxgIVgzgUCh2SIgCE&usg=AFQjCNFcGJyQxSA9K1BIzb4C77HkQWQt3A);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 20px;
+}
+
+
+.jumbotron h1 {
+  color: #efebe9;
+  font-size: 48px;  
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+
+.jumbotron p {
+  
+  font-size: 28px;
+  font-style: bold ;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color : #6d4c41;
+}
+
+.learn-more a {
+  color: #8d6e63;
+}
+.neighborhood-guides {
+  
+    color: #6d4c41;
+    background-color: #212121 ;
+    font-family: 'Playfair Display', serif;
+    font-style: bold ;
+}
+.neighborhood-guides h2 {
+    font-size: 24px;
+    color: #6d4c41;
+    font-family: 'Playfair Display', serif;
+}
+.neighborhood-guides p {
+    font-size: 15px;
+    background-color: #212121 ;
+}
+h3 {
+  color :#6d4c41;
+  font-family: 'Playfair Display', serif;
+}
+.row{
+  padding-left: 20px ;
+  padding-right: 20px ;
+}
+
+footer {
+
+  color : #efebe9;
+  padding-left: 500px ;
+  font-size: 10px; ;
+}
+    

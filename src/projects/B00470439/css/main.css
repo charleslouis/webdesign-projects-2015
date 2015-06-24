@@ -1,0 +1,96 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   .form-control.input-full-width{
+   	width:100%;
+   }
+
+   .radio.input-full-width{
+   	width:100%;
+   }
+
+
+   .button.search{
+   	display: block;
+   	margin:auto; 
+   }
+
+
+   .container{
+   	text-align: center;
+   	display: block;
+   }
+
+
+   .images{
+   	width:210px;
+   	height:200px;
+   }
+
+
+   .row{
+   	margin: 200px
+   }
+
+
+   .Book{
+   	border-style: solid;
+   	border-color: red;
+   }
+
+
+   #TitreEvent{
+   	display: inline-block;
+   	margin: 0px 0px 0px 80px;
+   	padding: 0px 50px 0px 50px;
+   	border-width:1px;
+   	border-style:solid;
+   	border-color:black;
+   	border-radius: 10px
+   }
+
+
+   body{
+   	background-color:;
+   }
+
+
+   .bodycreateevent{
+   	background-color:#FFEDCD;
+   }
+
+
+   h2{
+   	font-size:40px;
+   	font-family:Poiret One;
+   	font-weight: bold;
+   }
+
+
+   h1{
+   	font-size:90px;
+   }
+
+
+   h3{
+   	font-size:25px;
+   	font-family:Poiret One;
+   	font-weight: bold;
+   }
+
+
+   .logosocialmedia{
+   	width: 20px;
+   	height:20px;
+   }
+
+   
+   footer{
+   	text-align:center;
+   }

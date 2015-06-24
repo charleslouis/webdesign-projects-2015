@@ -1,0 +1,44 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*This is a helper class for our forms*/
+.form-control.full-width,
+.full-width{
+	width: 100%;
+}
+
+
+.search-form-btn{
+	margin-top: 15px;
+}
+
+.navbar-brand{
+
+  background-image: url('../img/logo.jpg');
+  overflow: show;
+  text-indent: -99999px;
+  width:400px;
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: 22px;
+  margin-top: 11px;
+
+} 
+::selection {
+  background: #406936;
+  text-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Chare.com</title>
+        <meta name="description" content="Chare is a sharing platform for homeworks and reports">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+         <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<!-- Add the new slick-theme.css if you want the default styling -->
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/><link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+<?php if (have_posts()):while(have_posts()):the_post(); endwhile; endif;?>  
+<meta property="fb:admins" content="422733991216347" />  
+$facebook_image= catch_that_image();  
+<?php if (is_single()) { ?>  
+<meta property="og:url" content="<?php the_permalink() ?>"/>  
+<meta property="og:title" content="<?php single_post_title(''); ?>" />  
+<meta property="og:description" content="<?php echo strip_tags(get_the_excerpt($post->ID)); ?>" />  
+<meta property="og:type" content="article" />  
+<meta property="og:image" content="<?php if (function_exists('wp_get_attachment_thumb_url')) {echo wp_get_attachment_thumb_url(get_post_thumbnail_id($post->ID)); }?>" />  
+ 
+<?php } else { ?>  
+<meta property="og:site_name" content="<?php bloginfo('name'); ?>" />  
+<meta property="og:description" content="<?php bloginfo('description'); ?>" />  
+<meta property="og:type" content="website" />  
+<meta property="og:image" content="<?php echo $facebook_image;?>" /> <?php } ?>
+
+
+Read more: http://www.optimizesmart.com/how-to-use-open-graph-protocol/#ixzz3d1ZyQ6Kp
+                
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+         
+                <h1 class="title"><a href="index.html">Chare</a></h1>
+                <div> 
+          <a href="http://twitter.com/share" class="twitter-share-button" 
+  data-count="vertical" data-via="InfoWebMaster">Tweet</a>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+          <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.example.com/page.html&layout=box_count&show_faces=true&width=65&action=like&font=arial&colorscheme=light&height=65" 
+  scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:75px; height:65px; margin-top:3px; border-radius: 3px; vertical-align:bottom; float:right" allowTransparency="true"></iframe>
+</div> 
+            
+            </header>
+
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+           
+<article>
+<h1>About us</h1>
+<p>Chare is a sharing platform for homeworks. It is not like every one of us has never struggled with a homework at school. Sometimes (well... all the times), a little help and let's say it clearly... a little of cheating, is highly appreciated. On this website you will find any homeworks that nice fellows are willing to share with you. With a bit of luck, you will find here the exact same homework from last year that the one you are struggling with now. Because let's face it, not all the professors bother with changing subjects year to year. In any case, this is also a great tool to check on reports from qualified students (and if not, don't worry, that is what the rates are made for), about a lot of different fields.So, relax, enjoy and chare!</p>
+</article>
+
+<aside>
+                    <h3>Sign in and chea... oops, Chare!</h3>
+                    <div class="Login"> 
+               <div>
+              <input style="width:220px; height:25px; margin-bottom: 10px" type="text" placeholder="Email">
+            </div>
+
+            <div>
+              <input style="width:220px; height:25px; margin-bottom: 10px" type="password" placeholder="Password">
+            </div>
+<button type="button"><a id="Signin" href="feed.html">Sign in</a></button>
+                </aside>
+
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <ul>
+                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="contacts.html">Find Us</a></li>
+                <li><a href="rules-policy.html">Rules Policy</a></li>
+                </ul>
+       
+            </footer>
+        </div>
+<!-- Jquery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<!-- Google map -->
+        <script type="text/javascript" src="http://www.google.fr/jsapi"></script>
+        <script type="text/javascript">
+    google.load("maps", "3.4", {
+        other_params: "sensor=false&language=fr"
+    });
+</script>
+<script type="text/javascript" src="js/vendor/jquery.googlemap.js"></script>
+
+<!-- Slick -->
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

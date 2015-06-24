@@ -1,0 +1,228 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+	font-family: "FunSized" ;
+	src: url("../fonts/FunSized.woff") format(woff) ;	
+}
+
+@font-face {
+	font-family: "ActionMan" ;
+	src: url("../fonts/Action_Man.woff") format(woff) ;	
+}
+
+@font-face {
+	font-family: "yellow-font" ;
+	src: url("../fonts/YELLOW.woff") format(woff) ;	
+}
+
+.panel-body>h1,
+h1 , h3 , h4{
+	font-family:"yellow-font";
+}
+
+#jumbolink{
+text-decoration: none;
+}
+
+#jumbolink:hover{
+	text-decoration: none;
+	outline:none;
+}
+
+.jumbotron>.sous-titre{
+	height:80px;
+}
+
+.jumbotron h1{
+	font-family: "FunSized";
+}
+
+.jumbotron p, .list-group>h3 ,.archive-jervchin>.list-group>a{
+	font-family: "yellow-font";
+}
+
+
+/*NAVIGATION*/
+
+body>nav , .auteurs>div>div>div>h3{
+	font-family: "yellow-font";
+}
+
+nav>.pager{
+	margin-top: 10px
+}
+
+.pager>li>a:hover, .pager>li>a:focus,
+.navbar-jervchin .navbar-form>button:hover , .navbar-jervchin .navbar-form>button:focus,
+.navbar-jervchin .navbar-nav>li>a:hover , .navbar-jervchin .navbar-nav>li>a:focus,
+.navbar-jervchin .navbar-header>a:hover, .navbar-jervchin .navbar-header>a:focus,
+.form-jervchin>.form-group>div>.btn-default:hover, .form-jervchin>.form-group>div>.btn-default:focus
+{
+background-color: #FFF1DA;
+transition:1s;
+border-color: orange;
+color:orange;
+border-radius: 10px;
+background-position: 0 100%;
+}
+
+.archive-jervchin>.list-group>a:hover , .archive-jervchin>.list-group>a:focus,
+.auteurs>div>div>div>p>a:hover , .auteurs>div>div>div>p>a:focus{
+	background-color: #FFF1DA;
+transition:1s;
+border-color: orange;
+color:orange;
+background-position: 0 100%;
+
+}
+
+.bonus{
+	display:block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width:40%;
+	min-width: 370px;
+	border-radius: 50px;
+	box-shadow: 3px 3px 10px 0px black; 
+}
+
+.bonus-panel{
+	text-align: center;
+}
+
+.comic-navigation{
+display:inline-block;
+}
+
+.no-deco-link{
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	background-color: transparent;
+	color: #241A06;
+}
+.no-deco-link:hover, .no-deco-link:focus{
+	text-decoration: none;	
+	color: #A36E00;
+}
+
+.comic{
+	display:block;
+	margin: 0 auto;
+	box-shadow: 3px 3px 10px 0px black;
+	padding: 0px;
+	width:60%;
+	min-width: 370px;
+	
+}
+
+.top-image{
+	margin-top: 2em
+}
+
+.bottom-image{
+	margin-bottom: 2em
+}
+
+.social-links{
+	display: inline;
+}
+
+.form-jervchin{
+	margin: 0 auto;
+	width: 300px;
+	
+}
+
+.form-jervchin>.form-group>div{
+	display: block;
+	margin: 0 auto;
+	font-family: "yellow-font";
+}
+
+.form-jervchin>.form-group>label{
+	font-family: "yellow-font";
+	padding-left: 10px;
+}
+
+.social-buttons>a{
+	display: block;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	max-width: 45px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* ARCHIVES */
+
+.archive-jervchin>.list-group>a{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#archive-110615:hover , #archive-110615:focus{
+background-image:url("../img/comics/Caverne02.png") ;
+background-position: -80px;
+transition: 5s;
+}
+
+#archive-050615:hover , #archive-050615:focus{
+background-image:url("../img/comics/PandaPendu.jpeg") ;
+background-position: -60px;
+transition: 5s;
+}
+
+/* ABOUT */
+
+body>div>.about{
+	margin-left: 2em;
+	margin-right: 2em;
+
+}
+
+#map{
+
+	height: 26em;
+}
+
+body>.about>.panel-warning>.panel-heading{
+	background-image: linear-gradient(to bottom,#FFFFFF 0,#FFFEFC 100%);
+	font-family: "yellow-font";
+	border-color:orange;
+}
+
+body>.about>.panel-warning>.panel-body{
+	font-family: "ActionMan"
+}
+
+/* LIENS */
+
+.auteurs>div>div>div>p{
+	font-family: "ActionMan"
+}
+
+/* Google MAP */
+
+
+
+
+
+
+/*.comic>.panel-heading{
+  background-image: linear-gradient(to bottom,rgba(182, 150, 119, 1) 0,#6F3300 80%)	
+}
+.comic>.panel-title{
+	font-color: white
+}*/
+
+footer{
+	text-align: center;
+	clear:both;
+}
+

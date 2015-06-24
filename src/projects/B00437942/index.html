@@ -1,0 +1,474 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Curried</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<!-- //js Snapwidget Instagram-->
+<script src="http://snapwidget.com/js/snapwidget.js"></script>
+
+<!--script link with bootstrap-->
+<script src="js/bootstrap.min.js"></script>
+
+
+
+<!--Script for Google map-->
+<script src="https://maps.googleapis.com/maps/api/js"></script> 
+
+  <script>
+   
+   function initialize() {
+  var myLatlng = new google.maps.LatLng(48.8905206,2.2377914);
+  var mapOptions = {
+    zoom: 16,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById('curriedmap'), mapOptions);
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+  });
+}
+
+   google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+	
+
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Savory Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+
+</head>
+	
+<body>
+
+<!-- Facebook script -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- End of Facebook script -->
+
+
+
+
+
+<!-- header -->
+	<div class="header">
+		<div class="container">
+
+
+			<div class="header-top">
+				<div class="num">
+				<p><span>Address:</span>
+				<br>15 Parvis de la Defense
+				<br> 92092 La Défense
+				<br><span>Tel:</span> +33 123 45 67	
+				<br><span>Email:</span><a href="mailto:curried@gmail.com">curried@gmail.com</a></p>
+
+					<div class="line">
+						<span> </span>
+					</div>
+				</div>
+
+
+
+				<div class="logo">
+					<a href="index.html"><img src="imgks/logocurried.png" alt="logo curried " /></a>
+				</div>
+
+
+
+				<div class="top-icons">
+					<p><span><strong>Opening hours:</strong></span> 
+					<br>Monday-Saturday: 11h-22h
+					<ul>	
+						<li><a href="https://www.facebook.com/curryupnow" class="facebook"> </a></li>
+						<li><a href="http://instagram.com/indianresto" class="his"> </a></li>
+						<li><a href="https://twitter.com/calling_india" class="twitter"> </a></li>
+					</ul></p>
+					<div class="line">
+						<span> </span>
+					</div>
+				</div>
+				
+
+
+			
+				<div class="clearfix"> </div>
+			</div>
+			<div class="header-bottom">
+				<span class="menu"><img src="images/menu.png" alt=" "/></span>
+
+				<div class="row">
+  <div class="col-md-7 col-md-offset-3">
+
+				<ul class="nav1">
+					<li><a href="#menu" class="scroll">MENU</a></li>
+					<li><a href="#reviews" class="scroll">REVIEWS</a></li>
+					<li><a href="#about" class="scroll">ABOUT US</a></li>
+					<li><a href="#contact" class="scroll">FIND US</a></li>
+				</ul>
+</div>
+</div>
+				<!-- script for menu -->
+					<script> 
+						$( "span.menu" ).click(function() {
+						$( "ul.nav1" ).slideToggle( 300, function() {
+						 // Animation complete.
+						});
+						});
+					</script>
+				<!-- //script for menu -->
+
+			</div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-info">
+			<br>
+			<br>
+			<br>
+			<br>
+				<h3>Curried</h3>
+				<p class="europe">Authentic Indian Cuisine</p>
+				<div class="fork">
+					<span> </span>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br><br><br><br>
+				<p class="dum">Your favorite Indian food,
+				<br> just better...</p>
+
+					
+					
+			</div>
+		</div>
+	</div>
+<!-- //banner -->
+
+
+<!-- menu -->
+	<div id="menu" class="classic-menu">
+		<div class="container">
+			<h3>Menu</h3>
+			<div class="cake">
+				<p> Customize your own meal! 
+				<br> Meal + Drink:12€</p>
+			</div>
+
+
+
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider2">
+					<li>
+						<div class="menu-grids">
+							<div class="menu-grid">
+								<img src="imgks/katiroll.jpg" alt="Kati roll, indian flat bread picture" />
+								<div class="beef">
+								<br>
+								<br>
+								<br>
+									<strong>Choose a base...
+											<br>Why not a Kati roll?</strong>
+								</div>
+
+
+								<h4>Base</h4>
+								<ul>
+									<li>Kati Roll</li>
+									<li>Rice</li>
+									
+								</ul>
+							</div>
+							<div class="menu-grid">
+								<div class="plate">
+									<img src="imgks/currymeat.jpg" alt="Lamb curry picture " class="pat"/>
+								</div>
+								<div class="bef">
+									<strong>Add tasty stewed meat...
+										<br>For example a mouthwatering lamb curry</strong>
+								</div>
+								<h4>Meat</h4>
+								<ul>
+									<li>Chicken</li>
+									<li>Beef</li>
+									<li>Lamb</li>	
+									<li>Fish</li>	
+								</ul>
+							</div>
+							<div class="menu-grid">
+								<img src="imgks/mix_vegetables.jpg" alt="Mix vegetables pictures" />
+								<div class="bf">
+								<br>
+								<br>
+								<br><strong>
+									...And vegetables!
+										<br>Such as Indian mix vegetables</strong>
+								</div>
+								<h4>Vegetables</h4>
+								<ul>
+									<li>Mixed vegetables</li>
+									<li>Green beans </li>
+									<li>Eggplants</li>
+									<li>Carrots</li>
+									
+								</ul>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+<!-- //menu -->
+
+
+
+
+<!-- reviews -->
+	<div id="reviews" class="reviews">
+		<div class="container">
+
+
+			<h3>Reviews</h3>
+
+
+
+<!-- SnapWidget for Instagram review feed-->
+<iframe src="http://snapwidget.com/in/?u=aW5kaWFucmVzdG98aW58MTI1fDV8MXx8bm98NXxmYWRlSW58b25TdGFydHx5ZXN8eWVz&ve=130615" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+<!-- end SnapWidget-->
+
+  <div class="row">
+		
+	      <div class="col-md-4">
+   <!-- Review Tripadvisor-->
+<div id="TA_selfserveprop634" class="TA_selfserveprop">
+<ul id="hPLuE3611" class="TA_links vqKFv47">
+<li id="DHeLpCgZXOq" class="tKJqFz">
+<a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>
+</li>
+</ul>
+</div>
+<script src="http://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=634&amp;locationId=5079062&amp;lang=en_US&amp;rating=true&amp;nreviews=5&amp;writereviewlink=true&amp;popIdx=false&amp;iswide=false&amp;border=true&amp;display_version=2"></script>
+    <!--end of review tripadvisor-->
+</div>
+
+ <div class="col-md-4">
+<!--Twitter review feed-->
+<div id="twitter"
+<a class="twitter-timeline" width="230" height="300" href="https://twitter.com/calling_india" data-widget-id="609642879816990721">Tweets by @calling_india</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+<!--end f Twitter revie feed -->
+</div>
+
+ <div class="col-md-4">
+
+<!-- Facebook Review feed -->
+<div class="fb-page" data-href="https://www.facebook.com/curryupnow?fref=ts" data-width="230" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/curryupnow?fref=ts"><a href="https://www.facebook.com/curryupnow?fref=ts"><img src="imgks/fb.png"atl"Preview curries FB page"></a></blockquote></div></div>
+
+<!--End Facebook review feed, linked to the script, just after body-->		
+</div>
+</div>
+</div>
+<!-- end of reviews-->
+
+
+
+<!-- about -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="about-info">
+				<h3>Saket & Rajesh</h3>
+				<div class="about-text">
+					<div class="about-text-left">
+						<p>Saket Pandit
+
+Born in Mumbai and raised in six different cities throughout India, Saket was influenced early on by the 
+culture and tradition of the plethora of varieties of Indian cuisine. For Saket, food is a very important part 
+of his life. His father, Sudhendu, was the director of multiple hotel restaurants in India, and was 
+responsible for curating new food concepts and managing restaurant openings. His mother, Neha taught 
+Saket as a young boy how to cook with passion, from kneading naan breads to blending unique spices. 
+
+<br>On another hand, during his MBA program in Paris, Rajesh often found himself cooking simple and authentic Indian cuisine 
+in his dorm room, as it reminded him of the bustling sound, colorful sight, and aromatic smell of the street 
+food of India back home. 
+<br>With the opening of Curried, Saket and Rajest are aiming to replicate this 
+traditional Indian street food and cuisine in Paris. 
+</p>
+					</div>
+					<div class="about-text-right">
+						<p>
+							<img src="imgks/curried_chefs.jpg",alt="Saket and Rajest, Curried Chefs">
+
+
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+<!-- Slider-starts-Here -->
+				<script src="js/responsiveslides.min.js"></script>
+				 <script>
+				    // You can also use "$(window).load(function() {"
+				    $(function () {
+				      // Slideshow 4
+				      $("#slider3").responsiveSlides({
+				        auto: true,
+				        pager: false,
+				        nav: false,
+				        speed: 500,
+				        namespace: "callbacks",
+				        before: function () {
+				          $('.events').append("<li>before event fired.</li>");
+				        },
+				        after: function () {
+				          $('.events').append("<li>after event fired.</li>");
+				        }
+				      });
+				
+				    });
+				  </script>
+			<!--//End-slider-script -->
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="thank">
+							<p>Come experiment Authentic Indian delights, 
+									<span>just the way you like it!</span></p>
+						</div>
+					</li>
+					<li>
+						<div class="thank">
+							<p>We're preparing finger-licking Indian food,
+									<span>just what you wanted!</span></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</div>
+
+<div class=video>
+	<h4>Curious about Kati Roll recipe? Learn with our Chef !</h4>
+
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/F1ss1niuo0Q" frameborder="0" allowfullscreen></iframe> 
+<br>
+<br>
+</div>
+<!-- //about -->
+
+
+
+<!-- footer -->
+
+	<div class="footer">
+		<div class="container">
+			<div class="footer-info">
+
+
+
+	<div id="contact" class="contact">
+		<div class="container">
+
+		<h3>FIND US </h3>
+
+
+
+	<div class="col-md-4">
+ 
+       <h4>Address</h2>
+            <p>15 Parvis de la Defense 
+              <br>92092 La Défense <p>
+
+         <h4>Contact details</h2>
+                        
+             <p><strong>Phone: </strong>
+              <a href="tel:+33123456789">+33(0)1 23 45 67 89</a>
+                            
+              <br><strong>Email: </strong>
+              <a href="mailto:curried@gmail.com">curried@gmail.com</a></p>
+
+</div>
+
+  <div class="col-md-6.col-md-offset-2">
+  <div id="curriedmap" style="width:500px;height:380px;"></div>
+
+
+  </div>
+
+
+ <p><em>Framework by <a href="http://w3layouts.com/">w3layouts</em></a></p>
+ 
+
+
+
+
+
+
+
+
+
+<!-- //footer -->
+
+
+<!-- here stars scrolling icon -->
+
+
+
+
+
+	<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
